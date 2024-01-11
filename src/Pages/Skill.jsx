@@ -2,9 +2,8 @@ import React from "react";
 import Navbar from "../Components/navbar";
 import Framework from "../Components/framework";
 import homePicture from "../Assets/Profile.png";
-import { Link } from "react-router-dom";
 
-function HomePage(){
+function SkillPage(){
     return(
         <>
         
@@ -15,18 +14,17 @@ function HomePage(){
                 <div class="home" >
                     <div class="text">
                         <h1><span>Hi!</span> I'm <br/>Minsa</h1>
-                        <Link to="/About"style={{textDecoration: 'none'}}>
                         <div class="primary-btn">
+                            <a href="/About"></a>
                             <div class="btn-group">
                                 <div class="play-btn">
                                     <div class="play-btn-inner">
                                         <i class="fa fa-play"></i>
-                                        <span style={{textDecoration: 'none'}}>Watch Resume</span>  
+                                        <span>Watch Resume</span>  
                                     </div>          
                                 </div>
                             </div>
                         </div>
-                        </Link>
                     </div>
                     <img src={homePicture}/>
                 </div>
@@ -34,4 +32,4 @@ function HomePage(){
         </>
     )
 }
-export default HomePage;
+export default SkillPage;
