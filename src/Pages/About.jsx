@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../../../minsa/src/Components/navbar";
-import Framework from "../../../minsa/src/Components/framework";
+import Navbar from "../Components/navbar";
+import Framework from "../Components/framework";
 
 function AboutPage(){
     return(
