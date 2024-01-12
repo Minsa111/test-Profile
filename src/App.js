@@ -3,7 +3,9 @@ import AboutPage from './Pages/About';
 import ContactPage from './Pages/Contact';
 import HobbyPage from './Pages/Hobby';
 import SkillPage from './Pages/Skill';
-import './Assets/style.css';
+import './Assets/CSS/style.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';

@@ -1,14 +1,13 @@
 import React from "react";
 import Navbar from "../Components/navbar";
 import Framework from "../Components/framework";
-import aboutImage from "../Assets/aboutprofile0.png"
+import aboutImage from "../Assets/Images/aboutprofile0.png"
 
 function AboutPage(){
     return(
         <>
         
             <Framework/>
-            <div class="inv-header"></div>
             <Navbar />
             <div class="about" id="about">
                 <div class="about-header">

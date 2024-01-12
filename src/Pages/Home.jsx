@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Components/navbar";
 import Framework from "../Components/framework";
-import homePicture from "../Assets/Profile.png";
+import homePicture from "../Assets/Images/Profile.png";
 import { Link } from "react-router-dom";
 
 function HomePage(){
@@ -9,7 +9,7 @@ function HomePage(){
         <>
         
             <Framework/>
-            <div class="inv-header"></div>
+            {/* <div class="inv-header"></div> */}
             <Navbar />
             <div class="content">
                 <div class="home" >
