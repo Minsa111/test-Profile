@@ -8,7 +8,6 @@ import Football3 from"../Assets/Images/Football3.jpg"
 function HobbyPage(){
     return(
         <>
-        
             <Framework/>
             <Navbar />
             <div class= "container-fluid px-0 "style={{height: '100vh', width: 'auto',backgroundImage:"linear-gradient(rgb(16,16,16) 50%,rgb(195, 40, 101)120% )"}}>

@@ -35,7 +35,7 @@ function MessagePage(){
             <Framework/>
             <Navbar />
             <div></div>
-            <div class="container-fluid  bg-dark w-100 bg-dark py-4 px-5 pt-5 mx-0" style={{height: '100vh', width: 'auto'}}>
+            <div class="container-fluid w-100 bg-dark py-4 px-5 pt-5 mx-0" style={{height: '100vh', width: 'auto',backgroundImage:"linear-gradient(rgb(16,16,16) 20%,rgb(195, 40, 101)100% )"}}>
                 <div class="row justify-content-md-center">
                     <div class = "col-md-8">
                 <div class="card text-white"  style={{backgroundImage:"linear-gradient(rgb(16,16,16) 20%,rgb(195, 40, 101)100% )"}}>

@@ -20,7 +20,7 @@ function HomePage(){
                             <div class="btn-group">
                                 <div class="play-btn">
                                     <div class="play-btn-inner">
-                                        <i class="fa fa-play"></i>
+                                        <i class="fa-solid fa-envelope"></i>
                                         <span style={{textDecoration: 'none'}}>Leave a Message</span>  
                                     </div>          
                                 </div>

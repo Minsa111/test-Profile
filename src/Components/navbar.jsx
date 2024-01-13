@@ -19,8 +19,8 @@ function Navbar() {
             <li><Link class = "nav-link text-white" to="/hobby">Hobby</Link></li>
             <li><Link class = "nav-link text-white" to="/skill">Skill</Link></li>
           </ul>
-          <span class="navbar-text text-white mx-5">
-            <p>Aminudin Muhibbullah      <a href="https://github.com/Minsa111/test-Profile/tree/main"><img src={githubLogo} style={{width: "30px", height: "30px"}} alt="" /></a></p> 
+          <span class="navbar-text d-flex text-white align-middle mx-5">
+            <p class="align-middle my-0">Aminudin Muhibbullah      <a href="https://github.com/Minsa111/test-Profile/tree/main"><img src={githubLogo} style={{width: "30px", height: "30px"}} alt="" /></a></p> 
           </span>
         </div>
       </div>

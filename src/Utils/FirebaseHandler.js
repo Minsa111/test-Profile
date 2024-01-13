@@ -19,9 +19,9 @@ import {
         const docRef = await addDoc(messageCollection, messageData);
         console.log("Product added with ID:", docRef.id);
         messageData.id = docRef.id;
-        return messageData;
+        return alert('Message sent successfully!');;
     } catch (error) {
         console.error("Error adding product: ", error);
-        return null;
+        return alert(`Error sending message: ${error.message}`);;
     }
 };
