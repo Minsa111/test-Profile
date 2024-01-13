@@ -3,6 +3,7 @@ import AboutPage from './Pages/About';
 import ContactPage from './Pages/Contact';
 import HobbyPage from './Pages/Hobby';
 import SkillPage from './Pages/Skill';
+import MessagePage from './Pages/Message';
 import './Assets/CSS/style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Contact" element={<ContactPage />} />
         <Route path="/Hobby" element={<HobbyPage />} />
         <Route path="/Skill" element={<SkillPage />} />
+        <Route path="/Message" element={<MessagePage />} />
       </Routes>
     </Router>
   );

@@ -1,5 +1,6 @@
 :root{
     --body-font:'Times New Roman';
+    background: #000;
     
 }
 body {
@@ -46,16 +47,27 @@ body {
     vertical-align: middle;
     text-align: center;
 }
-.navbar-nav li a {
-    transition: all 0.5s;
-}
 
 .navbar-nav li  {
     padding-left: 20px;
 }
+.navbar-nav li a {
+    transition: all 0.5s;
+}
 .navbar-nav li a:hover{
     color: #ffff;
     background: #c32865;
+}
+
+.btn-hover:hover{
+    color: #ffff;
+    background: #c32865;
+    background-color: #000;
+
+}
+
+.btn-hover {
+    transition: all 0.5s;
 }
 /* .header .navbar {
     display: flex;

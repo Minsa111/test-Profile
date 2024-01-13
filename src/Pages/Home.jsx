@@ -15,13 +15,13 @@ function HomePage(){
                 <div class="home" >
                     <div class="text">
                         <h1><span>Hi!</span> I'm <br/>Minsa</h1>
-                        <Link to="/About"style={{textDecoration: 'none'}}>
+                        <Link to="/Message"style={{textDecoration: 'none'}}>
                         <div class="primary-btn">
                             <div class="btn-group">
                                 <div class="play-btn">
                                     <div class="play-btn-inner">
                                         <i class="fa fa-play"></i>
-                                        <span style={{textDecoration: 'none'}}>Watch Resume</span>  
+                                        <span style={{textDecoration: 'none'}}>Leave a Message</span>  
                                     </div>          
                                 </div>
                             </div>
