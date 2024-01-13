@@ -1,3 +1,9 @@
+This React Profile is still in developement, and will be continued.
+I haven't made my React Profile to be responsive for mobile. 
+Most likely responsive for Landscape or monitor or any display that are 16:9
+
+This project are deployed using github in https://minsa111.github.io/test-Profile
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
